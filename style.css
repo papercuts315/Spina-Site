@@ -120,7 +120,7 @@ transform: scale(1.1);
 /* some default page styles */
 /* min width and min height so our images always take the whole page */
 .page {
-  min-width: 100vw;
+  min-width: 95vw;
   min-height: 100vh;
 }
 
