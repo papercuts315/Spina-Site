@@ -97,7 +97,7 @@ transform: scale(1.1);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* margin-top:1vh; */
+
 
 
 }
@@ -177,38 +177,6 @@ a {
   transform:scale(1);
 }
 
-/* #s {
-  transition: all .3s;
-}
-
-#s:hover {
-  transform:scale(1.1);
-} */
-/* a:hover {
-  text-decoration: none;
-
-}
-
-a:after{
-  content: "";
-  position: absolute;
-  width:100%;
-  top: 50%;
-  left: 0;
-  height: 0px;
-  border-bottom: 2px solid white;
-  transform: translateY(15px);
-  transition: all .1s ease-in-out;
-
-} */
-
-/* a:hover:after {
-  transform:scale(1);
-} */
-
-/* a:hover {
-  text-decoration: line-through;
-} */
 
 
 /* project specific styling */
