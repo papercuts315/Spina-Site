@@ -1,0 +1,299 @@
+/* import a font from google */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* main styles for the body, global background color, text color, font, 0 out margin */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  color: #fdfdfd;
+  margin: 0;
+}
+
+/* 0 out the margin on divs */
+div {
+  margin: 0;
+}
+
+/* styles for the home page */
+/* set the background image */
+/* and flex align all the content on the page */
+#home {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#home h1 {
+  font-family: "Mrs Sheppards", cursive;
+  font-size: 30vw;
+  margin: 16px;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+
+#home h3 {
+  font-size: 2vw;
+  margin-left: 50vw;
+  margin-bottom: 1vw;
+}
+
+#headline {
+  text-decoration: none;
+  display: inline-block;
+    transition: all .3s ease-in-out;
+    margin:0;
+    padding-left: 3vw;
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+}
+
+#headline:hover {
+transform: scale(1.05);
+}
+
+#contact {
+  background-image: url("images/background2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#spina {
+  display: inline-block;
+  font-family: "Mrs Sheppards", cursive;
+  text-decoration: none;
+  font-size: 2vw;
+  margin-left:94vw;
+  margin-top:0;
+  margin-bottom:0;
+  transition: all .15s ease-in-out;
+  padding:.5vh;
+
+}
+
+#spina:hover {
+/* font-size: 2.5vw;
+  margin-left:93.5vw; */
+transform: scale(1.1);
+}
+
+
+/* style for the projects pageg */
+/* silly background rainbow gradient */
+#projects {
+  background-image: url("images/background3.jpg");
+  background-size: cover;
+}
+
+/* projects container stores all the project images */
+/* padding to keep from overlapping with the nav */
+/* flex style to keep all the projects looking nice */
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* margin-top:1vh; */
+
+
+}
+
+/* project div styles */
+/* background image displays the project image */
+.project {
+  width: 25vh;
+  height: 25vh;
+  background-size:20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 6vh;
+  margin-bottom: 1px;
+}
+
+
+/* some default page styles */
+/* min width and min height so our images always take the whole page */
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+/* this should probably be scoped to the nav but we didn't get there */
+a {
+  color: #fdfdfd;
+  /* text-decoration: none; */
+  /* position: relative; */
+}
+
+
+
+.hp {
+  color: #fdfdfd;
+  position: relative;
+}
+
+.hp:hover {
+  text-decoration: none;
+}
+
+.hp:after{
+  content: "";
+  position: absolute;
+  width:100%;
+  top: 50%;
+  left: 0;
+  height: 0px;
+  border-bottom: 2px solid white;
+  transform: translateY(15px);
+  transition: all .1s ease-in-out;
+}
+
+.hp:hover:after {
+  transform:scale(1);
+}
+
+.cp {
+  text-decoration: none;
+    position: relative;
+}
+
+.cp:after{
+  content: "";
+  position: absolute;
+  width:100%;
+  top: 50%;
+  left: 0;
+  height: 0px;
+  border-bottom: 1px solid white;
+  transform: translateY(6px);
+  transition: all .1s ease-in-out;
+}
+
+.cp:hover:after {
+  transform:scale(1);
+}
+
+/* #s {
+  transition: all .3s;
+}
+
+#s:hover {
+  transform:scale(1.1);
+} */
+/* a:hover {
+  text-decoration: none;
+
+}
+
+a:after{
+  content: "";
+  position: absolute;
+  width:100%;
+  top: 50%;
+  left: 0;
+  height: 0px;
+  border-bottom: 2px solid white;
+  transform: translateY(15px);
+  transition: all .1s ease-in-out;
+
+} */
+
+/* a:hover:after {
+  transform:scale(1);
+} */
+
+/* a:hover {
+  text-decoration: line-through;
+} */
+
+
+/* project specific styling */
+/* set background image and change bg position where needed */
+#image-1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/NBC_2014_Ident.svg/1200px-NBC_2014_Ident.svg.png");
+  transition: all .3s ease-in-out;
+}
+#image-1:hover {
+transform: scale(1.2);
+}
+
+#image-2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/FOX_wordmark.svg/1200px-FOX_wordmark.svg.png");
+    transition: all .3s ease-in-out;
+}
+#image-2:hover {
+  transform: scale(1.2);
+}
+
+
+#image-3 {
+  background-image: url("https://vignette.wikia.nocookie.net/althistory/images/c/cf/Nick_logo.png/revision/latest?cb=20131010011934");
+  background-size: 25vh;
+      transition: all .3s ease-in-out;
+}
+#image-3:hover {
+  transform: scale(1.2);
+}
+
+
+#image-4 {
+  background-image: url("https://gnr8r.ca/wp-content/uploads/2017/02/universal-music-group-4fe24a43ae700.png");
+  background-size: 25vh;
+        transition: all .3s ease-in-out;
+}
+#image-4:hover {
+  transform: scale(1.2);
+}
+
+
+#image-5 {
+  background-image: url("https://icanadvertising.com/wp-content/uploads/2014/11/AMC_Logo-whiteback.png");
+  background-size: 25vh;
+        transition: all .3s ease-in-out;
+}
+#image-5:hover {
+  transform: scale(1.2);
+}
+
+
+#image-6 {
+  background-image: url("https://logonoid.com/images/vh1-logo.png");
+  background-size: 25vh;
+        transition: all .3s ease-in-out;
+}
+#image-6:hover {
+  transform: scale(1.2);
+}
+
+
+#image-7 {
+  background-image: url("https://vignette.wikia.nocookie.net/logopedia/images/b/b5/Smosh_2013_logo_2.png/revision/latest?cb=20160118144145");
+  background-size: 25vh;
+        transition: all .3s ease-in-out;
+}
+#image-7:hover {
+  transform: scale(1.2);
+}
+
+
+#image-8 {
+  background-image: url("http://www.car-brand-names.com/wp-content/uploads/2015/07/Toyota-logo.png");
+        transition: all .3s ease-in-out;
+}
+#image-8:hover {
+  transform: scale(1.2);
+}
+
+
+#image-9 {
+  background-image: url("https://www.heart-music.com/templates/default/images/logo.png");
+  background-size: 25vh;
+        transition: all .3s ease-in-out;
+}
+#image-9:hover {
+  transform: scale(1.2);
+}
