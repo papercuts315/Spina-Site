@@ -88,6 +88,9 @@ transform: scale(1.1);
 #projects {
   background-image: url("images/background3.jpg");
   background-size: cover;
+
+  background-position: center;
+
 }
 
 /* projects container stores all the project images */
