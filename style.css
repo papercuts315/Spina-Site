@@ -50,7 +50,7 @@ div {
     margin:0;
     padding-left: 3vw;
     padding-right: 4vw;
-    padding-bottom: 2vh;
+    /* padding-bottom: 2vh; */
 }
 
 #headline:hover {
