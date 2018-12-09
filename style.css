@@ -67,7 +67,7 @@ transform: scale(1.05);
   display: inline-block;
   font-family: "Mrs Sheppards", cursive;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 2vw;
   margin-left:94vw;
   margin-top:0;
   margin-bottom:0;
@@ -99,8 +99,8 @@ transform: scale(1.1);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-margin-left: 1vw;
-margin-right: 1vw;
+margin-left: 50px;
+margin-right: 50px;
 
 
 
