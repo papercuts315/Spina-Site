@@ -92,6 +92,29 @@ transform: scale(1.1);
 
 }
 
+#bio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+  font-size: 2vh;
+  margin-left: 60px;
+  margin-top: 40px;
+
+}
+
+#bio2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: justify;
+  font-size: 2vh;
+  margin-left: 70px;
+  margin-top: 1px;
+
+}
+
+
 /* projects container stores all the project images */
 /* padding to keep from overlapping with the nav */
 /* flex style to keep all the projects looking nice */
